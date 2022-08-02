@@ -1,5 +1,8 @@
 *.swp
 *.pyc
 */__pycache__/
+
 prettyplot.egg-info/
 dist/
+
+*/.ipynb_checkpoints
