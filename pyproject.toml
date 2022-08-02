@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prettyplot"
+version = "0.0.0"
+description = "A package that can help drawing pretty figures easily."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "BSD 3-Clause License"}
+dependencies = [
+    "matplotlib",
+]
+
+[project.scripts]
+#cli-name = "prettyplot.main:main"
