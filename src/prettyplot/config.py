@@ -5,7 +5,8 @@ __all__ = [
         "COLOR",
         "GNU_COLOR",
         "LINESTYLE",
-        "MARKERSTYLE"
+        "MARKERSTYLE",
+        "HATCH"
         ]
 
 
@@ -27,3 +28,4 @@ GNU_COLOR = ["darkviolet", "#009e73", "#56b4e9", "#e69f00", "#f0e442", "#0072b2"
 
 LINESTYLE = ('-', '--', '-.', ':')
 MARKERSTYLE = ('o', 'v', '^', 'D', 's', '<', '>', 'h', '8')
+HATCH = ('/', '\\', '|', '-', '+', 'x', 'o', 'O', '.', '*')

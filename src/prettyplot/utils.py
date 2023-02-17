@@ -1,5 +1,8 @@
 #! python3
-import numpy as np
+
+__all__ = [
+        "smoothing"
+        ]
 
 def smoothing(data, step):
     """
@@ -7,6 +10,7 @@ def smoothing(data, step):
     :param data: list or tuple of data
     :param step: step size, int
     """
+    import numpy as np
     res = []
     data = np.array(data)
     for i in range(data.shape[0] // step):
