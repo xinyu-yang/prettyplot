@@ -1,2 +1,2 @@
 #! python3
-from . import line, roc, config, bar
+from . import line, roc, config, bar, utils
